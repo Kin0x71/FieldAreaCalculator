@@ -113,7 +113,7 @@ namespace FieldAreaCalculator
 
 				BeginDrawing = false;
 
-				//если вершин меньше 3х или найдено хотябы одно пересечение считаем это ошибкой и удаляем линии
+				//если вершин меньше 2х или найдено хотябы одно пересечение считаем это ошибкой и удаляем линии
 				if(DrawingPoints.Count < 2 || FindFirstIntersections())
 				{
 					ClearView();
